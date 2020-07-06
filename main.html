@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.55.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.55.0/addon/edit/closebrackets.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.55.0/codemirror.min.css">
+  </head>
+  <body>
+    <h1>Image Post-Processing Tool</h1>
+    <div id="one">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div id="two">
+      <input type="file" id="image-file" multiple accept="image/*">
+      <p id="coor">Coordinate:</p>
+      <p id="col">RGB:</p>
+      <p id="w">Width:</p><input type="text" value="300" id="w-in">
+      <p id="h">Height:</p><input type="text" value="150" id="h-in">
+    </div>
+    <textarea></textarea>
+    <script src="module.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
